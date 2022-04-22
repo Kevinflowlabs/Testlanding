@@ -159,9 +159,9 @@ p {
 
 /*===== All SECTION TITLE Style =====*/
 .section-title .line {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -webkit-linear-gradient(271deg, #4038f6 5%, #fe6e9a 95%);
+  background: -o-linear-gradient(271deg, #4038f6 5%, #fe6e9a 95%);
+  background: linear-gradient(271deg, #4038f6 5%, #fe6e9a 95%);
   width: 150px;
   height: 5px;
   margin-bottom: 10px !important; }
@@ -1360,9 +1360,7 @@ p {
     border-bottom-right-radius: 5px;
     height: 65px;
     line-height: 65px;
-    background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+    background: #000;
     background-size: 200%; }
     @media (max-width: 767px) {
       .subscribe-form button {
