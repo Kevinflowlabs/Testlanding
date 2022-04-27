@@ -806,10 +806,12 @@ p {
 .header-hero-image {
   padding-top: 45px; }
   .header-hero-image img {
-    max-width: 650px; }
+    max-width: 1040px;
+    padding-left: 90px;}
     @media (max-width: 767px) {
       .header-hero-image img {
-        max-width: 100%; } }
+        max-width: 100%;
+		padding-left: 0px } }
   @media (max-width: 767px) {
     .header-hero-image {
       padding-top: 30px; } }
@@ -1306,12 +1308,15 @@ p {
        10.SUBSCRIBE  css 
 ===========================*/
 .subscribe-area {
-  padding: 40px 50px 90px;
-  -webkit-box-shadow: 0px 0px 18px 0px rgba(50, 77, 215, 0.14);
-  -moz-box-shadow: 0px 0px 18px 0px rgba(50, 77, 215, 0.14);
-  box-shadow: 0px 0px 18px 0px rgba(50, 77, 215, 0.14);
-  border-radius: 10px;
-  background-color: #fff; }
+    padding: 0px 50px 50px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgb(50 77 215 / 14%);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(50, 77, 215, 0.14);
+    box-shadow: 0px 0px 18px 0px rgb(50 77 215 / 14%);
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 1080px;
+    margin: auto;
+}
   @media (max-width: 767px) {
     .subscribe-area {
       padding: 10px 30px 60px; } }
