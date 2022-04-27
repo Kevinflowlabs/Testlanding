@@ -806,12 +806,11 @@ p {
 .header-hero-image {
   padding-top: 45px; }
   .header-hero-image img {
-    max-width: 1040px;
-    padding-left: 90px;}
+    max-width: 100%; }
     @media (max-width: 767px) {
       .header-hero-image img {
         max-width: 100%;
-		padding-left: 0px } }
+		 				 } }
   @media (max-width: 767px) {
     .header-hero-image {
       padding-top: 30px; } }
