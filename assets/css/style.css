@@ -1390,7 +1390,7 @@ p {
 .footer-area {
   background-position: top center;
   position: relative;
-  z-index: 5; }
+  z-index: -5; }
 
 .footer-area::before {
   position: absolute;
